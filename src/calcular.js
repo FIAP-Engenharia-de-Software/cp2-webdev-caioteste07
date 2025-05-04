@@ -14,7 +14,7 @@ function calcular(numero1, numero2, operacao) {
     return 'Erro: parâmetros inválidos';
   }
 
-  switch (operacao) {
+  switch(operacao) {
     case '+':
       return numero1 + numero2;
     case '-':
